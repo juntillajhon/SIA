@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image:url(../images.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:100vh;
+}
+h2{
+  width: 300px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+li a {
+  text-decoration:solid 2px;
+  width: 200px;
+  display: block;
+  color:orange;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:black;
+  color: white;
+}
