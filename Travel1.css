@@ -1,0 +1,29 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color:violet;
+}
+div h2{
+  text-decoration:solid 15px;
+	text-align: center;
+	color:white;
+    margin-bottom: 20px;
+	margin-top: 15px;
+}
+div img{
+  position:absolute;
+  width: 200px;
+  height: 300px;
+  padding: 0px;
+  margin-left:480px;
+  margin-top: 70px;
+ }
+ div p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
