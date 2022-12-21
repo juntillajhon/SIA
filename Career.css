@@ -1,32 +1,30 @@
 *{
-	margin:0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
 }
 body{
-	background-color:violet;
+  background-image:url(2.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:100vh;
 }
-div h2{
-  text-decoration:solid 15px;
-	text-align: center;
-	color:white;
-    margin-bottom: 20px;
-	margin-top: 15px;
+h2{
+  width: 300px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
-div img{
-  position:relative;
+li a {
+  text-decoration:solid 2px;
   width: 200px;
-  height: 300px;
-  margin-top: 70px;
- }
- div p{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
- }
- @media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  div h2,div img{
-    width: 100%;
-  }
+  color:orange;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:black;
+  color: white;
+}
