@@ -1,1 +1,56 @@
-
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+font-family:serif;
+background-image:url(bground.jpg);
+background-repeat:no-repeat;
+background-size;
+height:100vh;
+}
+div.hero-text{
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:orange;
+}
+div.logo{
+  float:left;
+  color:orange;
+  font-size:40px;
+  line-height:80px;
+  fon-weight:bold;
+  padding:10px;
+}
+nav il{
+  float:left;
+  display:block;
+  padding:10px;
+}
+nav li a{
+  color:white;
+}
+nav ul li{
+  display:inline;
+  padding:2px;
+  line-height:10px;
+  margin:10px;
+  border-right:1px solid white;
+  border-left:1px solid white;
+  font-size:20px;
+  margin-top:10px;
+  text-transform:uppercase;
+}
+a.active,a:hover{
+  background:orang;
+  transtion:.5s;;
+}
+@media only screen and (max-width:500px){
+  nav ul li a{
+    width:100%;
+  }
+  
+  
