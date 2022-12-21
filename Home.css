@@ -44,17 +44,13 @@ nav ul li{
 	font-size:20px;
 	text-transform:uppercase; 
 }
-nav ul li a{
-	border: 2px;
-	color:orange;
-}
 a.active,a:hover{
 	background:white;
  transition: .5s;
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  body {
+  nav ul li a {
     width: 100%;
   }
 
