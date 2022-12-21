@@ -31,15 +31,14 @@ div.logo{
 nav ul{
 	float: left;
   display: block;
-  padding: 30px;
-  padding-left:50px;
-
+  padding: 10px;
+ 
 }
 nav ul li{
 	display:inline;
 	padding:2px ;
 	align-items: center;
-	line-height: 80px;
+	line-height: 10px;
 	margin:10px;
 	border-right: 2px solid white;
 	font-size:20px;
