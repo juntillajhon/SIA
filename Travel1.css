@@ -14,11 +14,9 @@ div h2{
 	margin-top: 15px;
 }
 div img{
-  position:absolute;
+  position:relative;
   width: 200px;
   height: 300px;
-  padding: 0px;
-  margin-left:480px;
   margin-top: 70px;
  }
  div p{
@@ -27,8 +25,8 @@ div img{
   margin-right: auto;
   width: 50%;
  }
-@media only screen and (max-width:500px) {
+ @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  h2,img {
+  div h2,div img{
     width: 100%;
   }
