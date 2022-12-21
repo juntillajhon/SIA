@@ -34,6 +34,9 @@ nav ul{
   padding: 10px;
  
 }
+nav li a{
+	color:white;
+}
 nav ul li{
 	display:inline;
 	padding:2px ;
@@ -45,7 +48,7 @@ nav ul li{
 	text-transform:uppercase; 
 }
 a.active,a:hover{
-	background:white;
+	background:orange;
  transition: .5s;
 }
 @media only screen and (max-width:500px) {
