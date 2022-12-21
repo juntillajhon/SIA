@@ -44,7 +44,9 @@ nav ul li{
 	line-height: 10px;
 	margin:10px;
 	border-right: 2px solid white;
+	border-left: 2px solid white;
 	font-size:20px;
+	margin-top:10px;
 	text-transform:uppercase; 
 }
 a.active,a:hover{
