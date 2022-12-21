@@ -29,9 +29,9 @@ div.logo{
 	padding:10px;
 }
 nav ul{
-	float: left;
+   float: left;
   display: block;
-  padding: 30px;
+  padding: 10px;
   color:white;
 }
 nav li a{
@@ -45,6 +45,7 @@ nav ul li{
 	margin:10px;
 	border-right: 2px solid white;
 	font-size:20px;
+	margin-top:20px;
 	text-transform:uppercase; 
 
 }
