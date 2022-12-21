@@ -1,20 +1,59 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>FINAL PROJECT</title>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="stylesheet" type="text/css" href="home.css">
-</head>
-<body>
-<h2>THE PLACE THAT I WANT TO TRAVEL>
-			<ul>
-			    <li><a href="">JAPAN</a></li>
-			    <li><a href=""KOREA</a></li>
-			    <li><a href="">CANADA</a></li>
-			</ul>
-			</nav>
-		</div>
-	</header>
-</body>
-</html>
+*{
+	padding: 0px;
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing:border-box;
+}
+body{
+	font-family:serif;
+	background-image:url(../bground.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:100vh;
+}
+	div.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+}
+div.logo{
+	float:left;
+	color:orange;
+	font-size:40px;
+	line-height:80px;
+	font-weight: bold;
+	padding:10px;
+}
+nav ul{
+	float: left;
+  display: block;
+  padding: 30px;
+  color:white;
+}
+nav li a{
+	color:white;
+}
+nav ul li{
+	display:inline;
+	padding:2px ;
+	align-items: center;
+	line-height: 10px;
+	margin:10px;
+	border-right: 2px solid white;
+	font-size:20px;
+	text-transform:uppercase; 
+
+}
+a.active,a:hover{
+	background:orange;
+ transition: .5s;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+  }
